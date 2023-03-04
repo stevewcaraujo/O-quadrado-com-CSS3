@@ -1,0 +1,28 @@
+@charset "UTF-8";
+body{background-image: linear-gradient(to right, rgb(87, 230, 87)60%, transparent);}
+header{background-color: rgb(17, 164, 17);color:#fff; padding: 10px;text-align: center;margin: -10px -5px 0px -5px;}
+header h1{font: normal bold 32px arial;}
+header p{font: italic normal 16px arial;}
+main{background-color: #fff; max-width: 800px; min-width: 200px; padding: 20px; box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.532); border-radius: 15px;padding: 20px;margin: auto;margin-top: 20px;}
+main h1, h2{background-image:linear-gradient(to right,yellow 60%, transparent);text-align: center;border-radius: 10px;}
+main p{text-align: justify;text-indent: 30px;line-height: 1.4em;}
+
+div.x1{background-color: blue;
+    max-width:100px; height:100px; width:100%;margin: auto;}
+div.x2{background-color: blue;
+    max-width:100px; height:100px; width:100%;margin: auto;rotate: 45deg;}
+div.x3{background-color: blue;
+width:200px; height:200px; display: grid; align-items: center;justify-content: center;margin: auto;}
+div.x4{background-color: black; width:100px; height:100px;}
+div.x5{background-color: transparent;width: 100px;height: 100px;margin: auto;}
+div.x5{border: 50px solid blue;}
+div.x6{background-color: transparent;width: 100px;height: 50px;margin: auto;}
+div.x6{
+    border-top: 50px solid blue;
+    border-left: 50px solid blue;
+    border-right: 50px solid blue;
+}
+
+footer{background-color: green;color: #fff;padding: 5px; margin: auto; margin-top: 20px;}
+footer p{font:normal normal 16px arial; text-align: center;}
+.autor:hover {background-color: rgb(87, 193, 87);color:rgb(4, 74, 4);padding: 5px;border-radius: 5px;font: italic bold 18px arial;}
